@@ -1,0 +1,26 @@
+.grid-cont{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px ;
+    background-color: #2196F3;
+}
+.grid-cont > div{
+    text-align: center;
+    padding: 50px;
+}
+.kruh{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+}
+.kruhOn{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: black;
+}
+.kruhInvis{
+    background-color: #2196F3;
+}
